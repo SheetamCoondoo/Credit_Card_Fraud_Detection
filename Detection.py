@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # loading the dataset to a Pandas DataFrame
-credit_card_data = pd.read_csv('/content/creditcard.csv')
+credit_card_data = pd.read_csv('creditcard.csv')
 
 # first 5 rows of the dataset
 credit_card_data.head()
